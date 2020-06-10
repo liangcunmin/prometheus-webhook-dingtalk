@@ -71,7 +71,7 @@ func (r *DingNotificationBuilder) Build(m *models.WebhookMessage) (*models.DingT
 		MessageType: "markdown",
 		Markdown: &models.DingTalkNotificationMarkdown{
 			Title: title,
-			Text:  content,
+			Content:  content,
 		},
 	}
 
